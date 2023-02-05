@@ -16,7 +16,12 @@ export const Jobs = () => {
   return (
     <StyledJobs>
       <h2>Veja alguns de nossos trabalhos de limpeza</h2>
-      <Carousel emulateTouch={true} autoPlay={true}>
+      <Carousel
+        infiniteLoop={true}
+        interval={2000}
+        emulateTouch={true}
+        autoPlay={true}
+      >
         <img src={fogao1} alt='' />
         <img src={fogao2} alt='' />
         <img src={fogao3} alt='' />
