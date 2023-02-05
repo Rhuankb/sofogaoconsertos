@@ -16,12 +16,7 @@ export const Header = () => {
           >
             <AiFillInstagram />
           </a>
-          <ReactWhatsapp
-            src={whatsapp}
-            element='img'
-            number='555192146069'
-            message='Olá, gostaria de agendar uma visita ou informações sobre meu fogão.'
-          />
+          <ReactWhatsapp src={whatsapp} element='img' number='555192146069' />
         </div>
       </div>
     </StyledHeader>

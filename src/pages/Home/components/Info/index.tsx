@@ -14,11 +14,7 @@ export const Info = () => {
             Conserto de fogão em Porto Alegre, comerciais, industriais e
             residenciais de <span>todas as marcas e modelos</span>
           </h3>
-          <ReactWhatsapp
-            element='button'
-            number='555192146069'
-            message='Olá, gostaria de agendar uma visita ou informações sobre meu fogão '
-          >
+          <ReactWhatsapp element='button' number='555192146069'>
             {'AGENDE AGORA'}
           </ReactWhatsapp>
         </div>

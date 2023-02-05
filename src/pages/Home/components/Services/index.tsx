@@ -4,6 +4,7 @@ import conserto from '../../../../assets/img/conserto.jpg';
 import install from '../../../../assets/img/install.jpeg';
 import revision from '../../../../assets/img/revision.jpg';
 import trocas from '../../../../assets/img/trocas.jpg';
+import ReactWhatsapp from 'react-whatsapp';
 
 export const Services = () => {
   return (
@@ -29,7 +30,9 @@ export const Services = () => {
           </li>
         </ul>
         <h3>Atendimento Residencial, Comercial e Industrial</h3>
-        <button>Saiba Mais</button>
+        <ReactWhatsapp element='button' number='555192146069'>
+          {'Saiba mais'}
+        </ReactWhatsapp>
       </div>
     </StyledServices>
   );

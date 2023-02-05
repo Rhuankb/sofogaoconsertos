@@ -6,12 +6,7 @@ import ReactWhatsapp from 'react-whatsapp';
 export const Contact = () => {
   return (
     <StyledContact>
-      <ReactWhatsapp
-        src={banner}
-        element='img'
-        number='555192146069'
-        message='Olá, gostaria de agendar uma visita ou informações sobre meu fogão.'
-      />
+      <ReactWhatsapp src={banner} element='img' number='555192146069' />
       <div className='container'>
         <div>
           <div>
