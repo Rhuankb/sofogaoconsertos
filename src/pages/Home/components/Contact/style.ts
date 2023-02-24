@@ -62,7 +62,7 @@ export const StyledContact = styled.div`
   }
 
   p {
-    font-size: 22px;
+    font-size: 28px;
   }
 
   @media (max-width: 750px) {
@@ -71,7 +71,7 @@ export const StyledContact = styled.div`
     }
 
     p {
-      font-size: 16px;
+      font-size: 20px;
     }
   }
 
@@ -81,7 +81,7 @@ export const StyledContact = styled.div`
     }
 
     p {
-      font-size: 14px;
+      font-size: 18px;
     }
   }
 
@@ -91,7 +91,7 @@ export const StyledContact = styled.div`
     }
 
     p {
-      font-size: 10px;
+      font-size: 14px;
     }
   }
 
@@ -101,7 +101,7 @@ export const StyledContact = styled.div`
     }
 
     p {
-      font-size: 8px;
+      font-size: 12px;
     }
   }
 `;

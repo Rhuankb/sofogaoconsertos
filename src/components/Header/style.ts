@@ -58,9 +58,20 @@ export const StyledHeader = styled.header`
     .container > div {
       gap: 22px;
     }
+  }
+
+  @media (max-width: 380px) {
+    h1 {
+      font-size: 32px;
+    }
+    img {
+      width: 30px;
+      height: 30px;
+    }
 
     svg {
-      width: 26px;
+      width: 30px;
+      height: 30px;
     }
   }
 `;
