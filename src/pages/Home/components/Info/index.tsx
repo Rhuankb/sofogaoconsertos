@@ -7,7 +7,7 @@ export const Info = () => {
   return (
     <StyledInfo>
       <div className='container'>
-        <img className='info-img' src={img} alt='' rel='preload' />
+        <img className='info-img' src={img} alt='' />
         <div>
           <img className='logo' src={logo} alt='' />
           <h2>
