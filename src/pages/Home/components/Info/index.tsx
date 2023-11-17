@@ -7,13 +7,13 @@ export const Info = () => {
   return (
     <StyledInfo>
       <div className='container'>
-        <img className='info-img' src={img} alt='' />
+        <img className='info-img' src={img} alt='' rel='preload' />
         <div>
           <img className='logo' src={logo} alt='' />
-          <h3>
+          <h2>
             Conserto de fogão em Porto Alegre, comerciais, industriais e
             residenciais de <span>todas as marcas e modelos</span>
-          </h3>
+          </h2>
           <ReactWhatsapp element='button' number='555192146069'>
             {'AGENDE AGORA'}
           </ReactWhatsapp>

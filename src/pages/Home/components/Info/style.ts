@@ -45,7 +45,7 @@ export const StyledInfo = styled.div`
     border-radius: 30px;
   }
 
-  h3 {
+  h2 {
     font-size: 29px;
     color: var(--font-color);
     font-weight: 400;
@@ -59,7 +59,7 @@ export const StyledInfo = styled.div`
   @media (max-width: 1200px) {
     .info-img {
       width: 50vw;
-      height: auto;
+      height: 450px;
       object-fit: cover;
     }
 
@@ -71,7 +71,7 @@ export const StyledInfo = styled.div`
       width: 100%;
     }
 
-    h3 {
+    h2 {
       font-size: 24px;
     }
 

@@ -22,16 +22,16 @@ export const Jobs = () => {
         emulateTouch={true}
         autoPlay={true}
       >
-        <img src={fogao1} alt='' />
-        <img src={fogao2} alt='' />
-        <img src={fogao3} alt='' />
-        <img src={fogao4} alt='' />
-        <img src={fogao5} alt='' />
-        <img src={fogao6} alt='' />
-        <img src={fogao7} alt='' />
-        <img src={fogao8} alt='' />
-        <img src={fogao9} alt='' />
-        <img src={fogao10} alt='' />
+        <img src={fogao1} loading='lazy' alt='' />
+        <img src={fogao2} loading='lazy' alt='' />
+        <img src={fogao3} loading='lazy' alt='' />
+        <img src={fogao4} loading='lazy' alt='' />
+        <img src={fogao5} loading='lazy' alt='' />
+        <img src={fogao6} loading='lazy' alt='' />
+        <img src={fogao7} loading='lazy' alt='' />
+        <img src={fogao8} loading='lazy' alt='' />
+        <img src={fogao9} loading='lazy' alt='' />
+        <img src={fogao10} loading='lazy' alt='' />
       </Carousel>
     </StyledJobs>
   );

@@ -10,6 +10,7 @@ export const StyledHeader = styled.header`
   h1 {
     font-family: 'Broadway BT';
     color: #dd0e18;
+    font-display="swap"
     font-size: 55px;
     font-weight: normal;
   }

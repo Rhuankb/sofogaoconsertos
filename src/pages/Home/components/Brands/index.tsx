@@ -18,34 +18,34 @@ export const Brands = () => {
         <h2>Trabalhamos com as marcas:</h2>
         <ul>
           <li>
-            <img src={marca1} alt='' />
+            <img src={marca1} loading='lazy' alt='' />
           </li>
           <li>
-            <img src={marca2} alt='' />
+            <img src={marca2} loading='lazy' alt='' />
           </li>
           <li>
-            <img src={marca3} alt='' />
+            <img src={marca3} loading='lazy' alt='' />
           </li>
           <li>
-            <img src={marca4} alt='' />
+            <img src={marca4} loading='lazy' alt='' />
           </li>
           <li>
-            <img src={marca5} alt='' />
+            <img src={marca5} loading='lazy' alt='' />
           </li>
           <li>
-            <img src={marca6} alt='' />
+            <img src={marca6} loading='lazy' alt='' />
           </li>
           <li>
-            <img src={marca7} alt='' />
+            <img src={marca7} loading='lazy' alt='' />
           </li>
           <li>
-            <img src={marca8} alt='' />
+            <img src={marca8} loading='lazy' alt='' />
           </li>
           <li>
-            <img src={marca9} alt='' />
+            <img src={marca9} loading='lazy' alt='' />
           </li>
           <li>
-            <img src={marca10} alt='' />
+            <img src={marca10} loading='lazy' alt='' />
           </li>
         </ul>
       </div>

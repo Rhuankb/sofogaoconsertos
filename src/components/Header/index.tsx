@@ -13,10 +13,11 @@ export const Header = () => {
             target='_blank'
             rel='noreferrer'
             href='https://www.instagram.com/so_fogao_ltda/'
+            aria-label='Go to instagram account'
           >
             <AiFillInstagram />
           </a>
-          <ReactWhatsapp src={whatsapp} element='img' number='555192146069' />
+          <ReactWhatsapp src={whatsapp} element='img' number='555192146069' alt='imagem do whatsapp' />
         </div>
       </div>
     </StyledHeader>
