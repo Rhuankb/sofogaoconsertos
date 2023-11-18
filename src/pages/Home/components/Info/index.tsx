@@ -1,6 +1,6 @@
-import img from '../../../../assets/img/img1.jpg';
+import img from '../../../../assets/img/img1.webp';
 import { StyledInfo } from './style';
-import logo from '../../../../assets/img/logo.png';
+import logo from '../../../../assets/img/logo.webp';
 import ReactWhatsapp from 'react-whatsapp';
 
 export const Info = () => {

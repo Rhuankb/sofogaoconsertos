@@ -1,9 +1,9 @@
 import React from 'react';
 import { StyledServices } from './style';
-import conserto from '../../../../assets/img/conserto.jpg';
-import install from '../../../../assets/img/install.jpeg';
-import revision from '../../../../assets/img/revision.jpg';
-import trocas from '../../../../assets/img/trocas.jpg';
+import conserto from '../../../../assets/img/conserto.webp';
+import install from '../../../../assets/img/install.webp';
+import revision from '../../../../assets/img/revision.webp';
+import trocas from '../../../../assets/img/trocas.webp';
 import ReactWhatsapp from 'react-whatsapp';
 
 export const Services = () => {

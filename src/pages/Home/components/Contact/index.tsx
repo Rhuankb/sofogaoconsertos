@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyledContact } from './style';
-import banner from '../../../../assets/img/bannerwhats.png';
+import banner from '../../../../assets/img/bannerwhats.webp';
 import ReactWhatsapp from 'react-whatsapp';
 
 export const Contact = () => {

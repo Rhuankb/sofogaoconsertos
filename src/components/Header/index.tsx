@@ -1,6 +1,6 @@
 import { StyledHeader } from './style';
 import { AiFillInstagram } from 'react-icons/ai';
-import whatsapp from '../../assets/img/whatsapp_logo.png';
+import whatsapp from '../../assets/img/whatsapp_logo.webp';
 import ReactWhatsapp from 'react-whatsapp';
 
 export const Header = () => {
