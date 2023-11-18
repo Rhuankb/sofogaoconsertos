@@ -63,6 +63,8 @@ export const StyledContact = styled.div`
 
   p {
     font-size: 28px;
+    font-align: center;
+    text-align: center;
   }
 
   @media (max-width: 750px) {
@@ -72,6 +74,7 @@ export const StyledContact = styled.div`
 
     p {
       font-size: 20px;
+      text-align: center;
     }
   }
 
@@ -82,6 +85,7 @@ export const StyledContact = styled.div`
 
     p {
       font-size: 18px;
+      text-align: center;
     }
   }
 
@@ -92,6 +96,7 @@ export const StyledContact = styled.div`
 
     p {
       font-size: 14px;
+      text-align: center;
     }
   }
 
@@ -102,6 +107,7 @@ export const StyledContact = styled.div`
 
     p {
       font-size: 12px;
+      text-align: center;
     }
   }
 `;

@@ -18,8 +18,20 @@ export const StyledBrands = styled.div`
 
   ul {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+  }
+
+  @media (min-width: 768px) {
+    ul {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (min-width: 992px) {
+    ul {
+      grid-template-columns: repeat(5, 1fr);
+    }
   }
 
   li > img {

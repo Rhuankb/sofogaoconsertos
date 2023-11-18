@@ -80,7 +80,7 @@ export const StyledInfo = styled.div`
     }
   }
 
-  @media (max-width: 750px) {
+  @media (max-width: 992px) {
     margin-bottom: 50px;
     .info-img {
       display: none;

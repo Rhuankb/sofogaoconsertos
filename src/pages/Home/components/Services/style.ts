@@ -5,7 +5,6 @@ export const StyledServices = styled.div`
   width: 100%;
   justify-content: center;
   margin-top: 50px;
-  margin-bottom: 70px;
   background-color: var(--gray-bg);
   .container {
     display: flex;
@@ -17,9 +16,10 @@ export const StyledServices = styled.div`
 
   ul {
     display: flex;
-    width: 100%;
+    width: fit-content;
     justify-content: space-between;
-    margin-top: 40px;
+    margin: 40px 20px 0 20px;
+    gap: 20px;
   }
 
   li {
@@ -52,7 +52,7 @@ export const StyledServices = styled.div`
   h3 {
     font-weight: 400;
     font-size: 32px;
-    margin-top: 90px;
+    margin-top: 30px;
   }
 
   h2 {

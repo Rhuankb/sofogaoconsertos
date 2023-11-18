@@ -14,11 +14,11 @@ export const Contact = () => {
             <h2>SEGUNDA - SEXTA: 07:30 - 18:00</h2>
           </div>
           <div className='phone'>
-            <p>(51) 3317-1755</p>
-            <p>(51) 99145-7915</p>
+            <p><a href="tel:+5133171755">(51) 3317-1755</a></p>
+            <p><a href="tel:+51991457915">(51) 99145-7915</a></p>
           </div>
           <div>
-            <p>SOFOGAOCONSERTOS@HOTMAIL.COM</p>
+            <p><a href='mailto:sofogaoconsertos@hotmail.com'>SOFOGAOCONSERTOS@HOTMAIL.COM</a></p>
             <p>
               Estr. João de Oliveira Remião, 930, 507 - Agronomia, Porto Alegre
               - RS, 91550-000
